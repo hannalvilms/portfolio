@@ -1,38 +1,266 @@
 .App {
+  overflow: hidden;
+}
+body {
+  background-color: #F7F5F5;
+  overflow: auto;
+}
+html, body {
+  color: #171717 !important;
+  font-family: 'Roboto', sans-serif !important;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.port-navbar {
+  padding-top: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+.port-navbar a {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2D2D2D !important;
+  text-decoration: none !important;
+}
+
+.header {
+  padding-top: 20vh;
+  text-align: center;
+  height: 100vh;
+}
+.header h1 {
+  font-size: 100px;
+  margin-bottom: 20px;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+.header h3 {
+  font-size: 70px;
+  margin-top: 20px;
+  padding-bottom: 100px;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+.header img {
+  bottom: 100px;
+  position: absolute;
+  width: 50px;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.aboutme {
+  padding-bottom: 120px;
+}
+.about h1 {
+  font-size: 70px;
+  padding-right: 0;
+  text-align: right;
+}
+.about {
+  background-color: #171717;
+  color: #F7F5F5;
+  font-weight: 300;
+  padding: 60px 10px 60px 100px;
+  text-align: left;
+}
+.about h3 {
+  font-size: 50px;
+}
+.about .description {
+  text-align: justify;
+  width: 440px  !important;
+  padding-left: 15px;
+  padding-top: 40px;
+  margin-left: auto;
+  margin-right: 0;
+}
+.about-row {
+  padding-right: 50px;
+}
+
+.education {
+  padding: 85px 80px 60px 50px;
+}
+.experience {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.experience h1, .education h1 {
+  padding-bottom: 10px;
+}
+.skills h6 {
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 2px solid #2D2D2D;
+}
+.skills-row {
+  padding-left: 0;
+}
+
+.work {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.work h1 {
+  font-size: 70px;
+  padding-bottom: 70px;
+  padding-top: 40px;
+  text-align: right;
+}
+.work img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.work a {
+  color: #F7F5F5;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+}
+.work-row {
+  float: right;
+  background-color: #171717;
+  color: #F7F5F5;
+  padding-left: 30px;
+  padding-right: 45px;
+  padding-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.footer {
+  text-align: center;
+}
+.footer .row {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+.footer .logos {
+  margin: 0 auto;
+}
+.logos img {
+  width: 25px;
+  margin: 10px;
+}
+@media (max-width:1200px) {
+  .about {
+    padding: 40px 10px 60px 60px;
+  }
+  .education {
+    padding: 40px 80px 60px 40px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (max-width:991px) {
+  .about .description {
+    width: 330px !important;
+  }
+  .aboutme h1 {
+    font-size: 75px;
+  }
+  .work-row {
+    padding-left: 45px;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 768px) {
+  .work-row {
+    padding-left: 200px;
+    float: inherit;
+    margin: 0;
+  }
+  .work .col-md-6 {
+    padding-left: 100px;
+  }
+  .aboutme {
+    padding-bottom: 30px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 576px) {
+  .header h1 {
+    font-size: 80px;
   }
-  to {
-    transform: rotate(360deg);
+  .header h3 {
+    font-size: 50px;
   }
+  .aboutme h1 {
+    font-size: 55px;
+  }
+  .aboutme {
+    padding-bottom: 20px;
+  }
+  .work h1 {
+    font-size: 60px;
+  }
+  .work .col-md-6 {
+    padding: initial !important;
+  }
+  .work h1 {
+    text-align: center;
+  }
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/*animation element*/
+.animation-element {
+  opacity: 0;
+  position: relative;
+}
+.animation-element.slide-left {
+  opacity: 0;
+  -moz-transition: all 1200ms linear;
+  -webkit-transition: all 1200ms linear;
+  -o-transition: all 1200ms linear;
+  transition: all 1200ms linear;
+  -moz-transform: translate3d(-600px, 0px, 0px);
+  -webkit-transform: translate3d(-600px, 0px, 0px);
+  -o-transform: translate(-600px, 0px);
+  -ms-transform: translate(-600px, 0px);
+  transform: translate3d(-600px, 0px, 0px);
+}
+.animation-element.slide-left.in-view {
+  opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+.animation-element.slide.testimonial {
+  width: 100%;
 }
