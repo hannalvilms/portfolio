@@ -89,6 +89,7 @@ export default class About extends Component {
                         <div className="skills-row row col-lg-12">
                             <div className="col-lg-3">
                                 <h6>Beginner</h6>
+                                <p>Java</p>
                                 <p>PHP</p>
                             </div>
                             <div className="col-lg-3">
