@@ -41,7 +41,7 @@ export default class Work extends Component {
                 <div className=" work-row row col-lg-10">
                     <h1 className="col-lg-12">Work</h1>
                         <div className="col-lg-4 col-md-6">
-                            <a>
+                            <a href="https://aed.academy/frontpage" target="_blank">
                                 <img src={Aed} alt="aed"/>
                                 <p>2nd grade study material (WIP)</p>
                             </a>
