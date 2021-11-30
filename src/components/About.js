@@ -38,8 +38,8 @@ export default class About extends Component {
                     <div className="about-row row">
                         <h1 className="col-lg-12">About me</h1>
                         <div className="description">
-                            <p>A 21 year old studying software development at Tartu Vocational Centre. I came across programming when I was in Gymnasium doing my thesis - I wrote a small piece code with R to analyse microRNA data. After graduation I started to learn HTML and CSS and decided to apply to Tartu Vocational Education Center to study as a junior software developer.</p>
-                            <p>I know fair bit about front-end development, but I'm eager to learn more about it and back-end development. I love learning new things and I’m always open to try them out. Also, I'm really passionate about creating stunning designs and building good looking websites. My hobbies include cooking and I enjoy baking (especially cookies!). I love hiking, spending time in nature and being active. I also like to knit, read and to take care of plants.</p>
+                            <p>A 21 year old living in Tartu. I studied software development at Tartu Vocational Centre and came across programming when I was in Gymnasium doing my thesis - I wrote a small piece code with R to analyse microRNA data. After graduation I started to learn HTML and CSS and decided to apply to Tartu Vocational Education Center to study as a junior software developer.</p>
+                            <p>I know fair bit about front-end development, but I'm eager to learn more about it. I love learning new things and I’m always open to try them out. Also, I'm really passionate about creating stunning designs and building good looking websites. My hobbies include cooking and I enjoy baking (especially cookies!). I also like to knit, spend time in nature and to take care of plants.</p>
                         </div>
                     </div>
                 </div>
@@ -47,8 +47,8 @@ export default class About extends Component {
                     <div className="row">
                          <h1 className="col-lg-12">Education</h1>
                         <div className="row col-lg-12">
-                            <p className="col-lg-4 col-sm-4 col-3 year">2019-...</p>
-                            <p className="col-lg-8 col-sm-8 col-9 school">Tartu Vocational Education Centre</p>
+                            <p className="col-lg-4 col-sm-4 col-3 year">2019-2021</p>
+                            <p className="col-lg-8 col-sm-8 col-9 school">Tartu Vocational Education Centre <br/> <b>Thesis:</b> Web Application for 2nd Grade Students</p>
                         </div>
                         <div className="row col-lg-12">
                             <p className="col-lg-4 col-sm-4 col-3 year">2016-2019</p>
@@ -94,12 +94,14 @@ export default class About extends Component {
                             </div>
                             <div className="col-lg-3">
                                 <h6>Elementary</h6>
-                                <p>JS</p>
+                                <p>Less</p>
                             </div>
                             <div className="col-lg-3">
                                 <h6>Intermediate</h6>
+                                <p>JS</p>
                                 <p>jQuery</p>
                                 <p>MySQL</p>
+                                <p>Sass</p>
                                 <p>ReactJS</p>
                             </div>
                             <div className="col-lg-3">

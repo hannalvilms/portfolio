@@ -123,6 +123,8 @@ html, body {
   border-radius: 20px;
   margin-bottom: 15px;
   margin-top: 15px;
+  height: 200px;
+  object-fit: cover;
 }
 .work a {
   color: #F7F5F5;
@@ -136,7 +138,7 @@ html, body {
   color: #F7F5F5;
   padding-left: 30px;
   padding-right: 45px;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 
 .footer {
@@ -177,12 +179,14 @@ html, body {
 
 @media (max-width: 768px) {
   .work-row {
-    padding-left: 200px;
     float: inherit;
     margin: 0;
   }
   .work .col-md-6 {
     padding-left: 100px;
+  }
+  .work img {
+    height: 300px;
   }
   .aboutme {
     padding-bottom: 30px;
