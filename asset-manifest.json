@@ -1,32 +1,31 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d62cdde0.chunk.css",
-    "main.js": "/portfolio/static/js/main.b81fc295.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b81fc295.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.e5fe90cc.chunk.css",
+    "main.js": "/portfolio/static/js/main.866dc95c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.866dc95c.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.7c2bf985.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.7c2bf985.js.map",
-    "static/css/2.658248ec.chunk.css": "/portfolio/static/css/2.658248ec.chunk.css",
+    "static/css/2.6e86b593.chunk.css": "/portfolio/static/css/2.6e86b593.chunk.css",
     "static/js/2.c8495611.chunk.js": "/portfolio/static/js/2.c8495611.chunk.js",
     "static/js/2.c8495611.chunk.js.map": "/portfolio/static/js/2.c8495611.chunk.js.map",
     "static/js/3.ff8c909d.chunk.js": "/portfolio/static/js/3.ff8c909d.chunk.js",
     "static/js/3.ff8c909d.chunk.js.map": "/portfolio/static/js/3.ff8c909d.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/2.658248ec.chunk.css.map": "/portfolio/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.d62cdde0.chunk.css.map": "/portfolio/static/css/main.d62cdde0.chunk.css.map",
+    "static/css/2.6e86b593.chunk.css.map": "/portfolio/static/css/2.6e86b593.chunk.css.map",
+    "static/css/main.e5fe90cc.chunk.css.map": "/portfolio/static/css/main.e5fe90cc.chunk.css.map",
     "static/js/2.c8495611.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c8495611.chunk.js.LICENSE.txt",
     "static/media/aed.20ba6420.png": "/portfolio/static/media/aed.20ba6420.png",
     "static/media/kassikaitse.031f1cca.png": "/portfolio/static/media/kassikaitse.031f1cca.png",
-    "static/media/portfolio.f0a399ed.png": "/portfolio/static/media/portfolio.f0a399ed.png",
     "static/media/quiz.756785d6.png": "/portfolio/static/media/quiz.756785d6.png",
     "static/media/simons.04ced3a9.png": "/portfolio/static/media/simons.04ced3a9.png",
     "static/media/snake.bbcc7c1b.png": "/portfolio/static/media/snake.bbcc7c1b.png",
-    "static/media/weather.b4b21474.png": "/portfolio/static/media/weather.b4b21474.png"
+    "static/media/weather.fd17a261.png": "/portfolio/static/media/weather.fd17a261.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7c2bf985.js",
-    "static/css/2.658248ec.chunk.css",
+    "static/css/2.6e86b593.chunk.css",
     "static/js/2.c8495611.chunk.js",
-    "static/css/main.d62cdde0.chunk.css",
-    "static/js/main.b81fc295.chunk.js"
+    "static/css/main.e5fe90cc.chunk.css",
+    "static/js/main.866dc95c.chunk.js"
   ]
 }
