@@ -8,11 +8,11 @@ export default class Footer extends Component {
             <div className="footer">
                 <div className="row col-lg-12">
                     <div className="col-lg-12">
-                        <a>2021 © Hanna-Liisa Vilms</a>
+                        <p>2022 © Hanna-Liisa Vilms</p>
                     </div>
                     <div className="logos">
-                        <a href="https://github.com/hannalvilms" target="_blank"><img src={Github}/></a>
-                        <a href="https://www.linkedin.com/in/hanna-liisa-vilms/" target="_blank"><img src={LinkedIn}/></a>
+                        <a href="https://github.com/hannalvilms" target="_blank" rel="noreferrer"><img src={Github} alt="github" /></a>
+                        <a href="https://www.linkedin.com/in/hanna-liisa-vilms/" target="_blank" rel="noreferrer"><img src={LinkedIn} alt="linkedin" /></a>
                     </div>
                 </div>
             </div>
