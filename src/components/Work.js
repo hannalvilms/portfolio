@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import $ from "jquery";
 import Snake from "./img/snake.png";
+import Foodie from "./img/foodie.png";
+import Monet from "./img/monet.png";
 import Simons from "./img/simons.png";
 import Weather from "./img/whereisthesun.png";
 import Kassikaitse from "./img/kassikaitse.png";
@@ -40,6 +42,20 @@ export default class Work extends Component {
 
   render() {
     let works = [
+      {
+        link: "https://hannalvilms.github.io/monet/",
+        githubLink: "https://github.com/hannalvilms/monet",
+        img: Monet,
+        alt: "monet",
+        title: "Monet artwork page made using JS and Sass",   
+      },
+      {
+        link: "https://hannalvilms.github.io/foodie/",
+        githubLink: "https://github.com/hannalvilms/foodie",
+        img: Foodie,
+        alt: "foodie",
+        title: "Recipe page made using JS, Sass and Firebase",
+      },
       {
         link: "https://hannalvilms.github.io/knitchart",
         githubLink: "https://github.com/hannalvilms/knitchart",
