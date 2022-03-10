@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.28efedf2.chunk.css",
-    "main.js": "/portfolio/static/js/main.c50f3424.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.c50f3424.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.dafdc51d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.dafdc51d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.03cbb5a0.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.03cbb5a0.js.map",
     "static/css/2.6e86b593.chunk.css": "/portfolio/static/css/2.6e86b593.chunk.css",
@@ -16,9 +16,11 @@
     "static/js/2.6c3c6bec.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6c3c6bec.chunk.js.LICENSE.txt",
     "static/media/aed.ff06c3e2.png": "/portfolio/static/media/aed.ff06c3e2.png",
     "static/media/coffee.a24245dc.png": "/portfolio/static/media/coffee.a24245dc.png",
+    "static/media/foodie.7fe44392.png": "/portfolio/static/media/foodie.7fe44392.png",
     "static/media/kassikaitse.364306d0.png": "/portfolio/static/media/kassikaitse.364306d0.png",
     "static/media/knitchart.d752bf83.png": "/portfolio/static/media/knitchart.d752bf83.png",
     "static/media/link.27b599f9.png": "/portfolio/static/media/link.27b599f9.png",
+    "static/media/monet.dee70afa.png": "/portfolio/static/media/monet.dee70afa.png",
     "static/media/quiz.1369a996.png": "/portfolio/static/media/quiz.1369a996.png",
     "static/media/simons.e10836dd.png": "/portfolio/static/media/simons.e10836dd.png",
     "static/media/snake.bd5ad655.png": "/portfolio/static/media/snake.bd5ad655.png",
@@ -29,6 +31,6 @@
     "static/css/2.6e86b593.chunk.css",
     "static/js/2.6c3c6bec.chunk.js",
     "static/css/main.28efedf2.chunk.css",
-    "static/js/main.c50f3424.chunk.js"
+    "static/js/main.dafdc51d.chunk.js"
   ]
 }
