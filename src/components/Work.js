@@ -47,7 +47,7 @@ export default class Work extends Component {
         githubLink: "https://github.com/hannalvilms/monet",
         img: Monet,
         alt: "monet",
-        title: "Monet artwork page made using JS and Sass",   
+        title: "Monet artwork page made using JS and Sass",
       },
       {
         link: "https://hannalvilms.github.io/foodie/",
@@ -75,7 +75,7 @@ export default class Work extends Component {
         githubLink: "https://github.com/hannalvilms/aed",
         img: Aed,
         alt: "aed",
-        title: "2nd grade study material",
+        title: "KHK Thesis: 2nd grade study material made with ReactJS and Laravel",
       },
       {
         link: "https://hannalvilms.github.io/coffee-app/",
@@ -112,7 +112,6 @@ export default class Work extends Component {
         title: "Snake game made using ReactJS",
       },
     ];
-    
 
     return (
       <div
@@ -124,11 +123,11 @@ export default class Work extends Component {
           {works.map((work, index) => (
             <div className="col-lg-4 col-md-6 col-sm-12 work-item" key={index}>
               <div
-                onMouseEnter={() =>
-                  {document
+                onMouseEnter={() => {
+                  document
                     .getElementsByClassName("overlay")
-                    [index].classList.add("show")}
-                }
+                    [index].classList.add("show");
+                }}
                 onMouseLeave={() =>
                   document
                     .getElementsByClassName("overlay")
